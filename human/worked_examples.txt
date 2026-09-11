@@ -1,0 +1,37 @@
+WORKED EXAMPLES - seed 0, finance surface
+Each pair traced from the dossier to the outcome, for hand-checking.
+
+========================================================================
+PAIR P6 x N0   (Morarn-48 unit -> Lunade shortfall)
+  dossier says P6 contains: Vexith-34 (C7), Lunip (C8), Kelax (C5), Rethock (C1)
+  combined profile : thermal 0.39, coherence 0.26, yield 0.82, latency 0.60, density 1.01, purity 0.62, throughput 0.20, stability 1.13
+  N0 requires    : thermal 0.41, yield 0.93, latency 0.43, density 0.17, throughput 0.69, stability 0.84
+  alignment 0.785 vs stated threshold 0.44  -> ABOVE
+  complements      : K3@21, K4@0
+  all available by quarter 28? True
+  -> reference score 0.957
+  -> ground truth: activated within horizon = True, p* = 0.583
+========================================================================
+PAIR P11 x N2   (Yssent unit -> Droash shortfall)
+  dossier says P11 contains: Tarnent-29 (C0)
+  combined profile : thermal 0.84, latency 0.13, purity 0.19, throughput 0.17, stability 1.02
+  N2 requires    : thermal 0.15, coherence 0.98, latency 0.43, purity 0.14, throughput 0.80, stability 0.20
+  alignment 0.297 vs stated threshold 0.66  -> below
+  complements      : K1@17, K3@21
+  all available by quarter 28? True
+  -> reference score 0.037
+  -> ground truth: activated within horizon = False, p* = 0.004
+========================================================================
+PAIR P11 x N8   (Yssent unit -> Tarnum-21 shortfall)
+  dossier says P11 contains: Tarnent-29 (C0)
+  combined profile : thermal 0.84, latency 0.13, purity 0.19, throughput 0.17, stability 1.02
+  N8 requires    : coherence 0.69, latency 0.43
+  alignment 0.051 vs stated threshold 0.55  -> below
+  complements      : K5@never, K4@0
+  all available by quarter 28? False   BLOCKED BY [np.str_('K5')]
+  -> reference score 0.000
+  -> ground truth: activated within horizon = False, p* = 0.000
+========================================================================
+
+To verify: find the [PT-], [TP-], [PR-] and [SR-] lines for these ids in
+dossier.txt and confirm the numbers above are read straight off them.

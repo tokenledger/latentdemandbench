@@ -1,0 +1,35 @@
+HOW TO DO THIS TASK
+
+You are reading a dossier about a fictional economy, as it stood at the cutoff.
+Your job: for each of the 16 pairings listed in answers.csv, judge whether that
+product will be commercially deployed against that need within the next 8
+quarters, and answer four further questions about it.
+
+The dossier never tells you the answer. You have to work it out:
+
+  a product -> the capabilities it contains -> the attribute profile of those
+  capabilities, matched against
+  a need -> its bottleneck -> the attribute profile that would relieve it
+
+A pairing is technically viable when the product's combined attribute profile
+lines up with what the need requires, above the sufficiency threshold stated for
+that need. But viability is not enough: a need also cannot be served until every
+complement it depends on is available. A complement with no announced
+availability, or one arriving after the horizon, blocks the pairing however good
+the profile match.
+
+Commentary mentions some pairings. That reflects attention already paid, mostly
+driven by how large the holder is and what has already happened - not evidence
+about the future. Do not rank by how much something is discussed.
+
+FILL IN answers.csv:
+  probability    0-1, that it is realized within the horizon
+  materiality    the value if served, on the scale the dossier uses
+  capture        0-1, that the holder keeps that value rather than losing it
+                 to entrants (supply, distribution, defensibility)
+  recognized     yes/no, is this pairing ALREADY discussed in commentary
+  prerequisites  ids of complements still blocking it (e.g. K3;K5), blank if none
+  evidence_path  one line: which capability and which requirement you matched
+
+There is no time limit. Please answer all 16 - skipping the hard ones makes the
+result unusable. Do not use a search engine or an AI assistant.

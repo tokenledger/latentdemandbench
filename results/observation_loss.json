@@ -1,0 +1,949 @@
+{
+  "config": {
+    "code_hash": "6b2630d26248899e",
+    "top_k": 40,
+    "universe_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "path": "observed reference -> latent-input reference -> conditional oracle"
+  },
+  "results": {
+    "formula_difference": {
+      "mean": 0.005469470731315817,
+      "lo": 0.0023650247997118626,
+      "hi": 0.008665200789699514,
+      "n": 100
+    },
+    "latent_formula_auc": {
+      "mean": 0.8249120144455708,
+      "lo": 0.8118923540435234,
+      "hi": 0.838281979914146,
+      "n": 100
+    },
+    "observation_loss": {
+      "mean": 0.0957635724986574,
+      "lo": 0.08502656681261977,
+      "hi": 0.1068684342596439,
+      "n": 100
+    },
+    "observed_formula_auc": {
+      "mean": 0.7291484419469133,
+      "lo": 0.7156993810640658,
+      "hi": 0.7435732119944416,
+      "n": 100
+    },
+    "oracle_auc": {
+      "mean": 0.8303814851768866,
+      "lo": 0.8169864885489528,
+      "hi": 0.8440942084186333,
+      "n": 100
+    },
+    "total_gap": {
+      "mean": 0.1012330432299732,
+      "lo": 0.08985509547807093,
+      "hi": 0.1128081360178318,
+      "n": 100
+    }
+  },
+  "per_universe": [
+    {
+      "observed_formula_auc": 0.7974193548387096,
+      "latent_formula_auc": 0.8996774193548387,
+      "oracle_auc": 0.902258064516129,
+      "observation_loss": 0.10225806451612907,
+      "formula_difference": 0.002580645161290307,
+      "total_gap": 0.10483870967741937
+    },
+    {
+      "observed_formula_auc": 0.7329032258064516,
+      "latent_formula_auc": 0.7480645161290322,
+      "oracle_auc": 0.7608870967741935,
+      "observation_loss": 0.015161290322580623,
+      "formula_difference": 0.012822580645161286,
+      "total_gap": 0.02798387096774191
+    },
+    {
+      "observed_formula_auc": 0.7376910016977929,
+      "latent_formula_auc": 0.8384267119411432,
+      "oracle_auc": 0.8285229202037352,
+      "observation_loss": 0.10073571024335026,
+      "formula_difference": -0.009903791737407963,
+      "total_gap": 0.0908319185059423
+    },
+    {
+      "observed_formula_auc": 0.6823492755880979,
+      "latent_formula_auc": 0.7420158903255959,
+      "oracle_auc": 0.7418601028197539,
+      "observation_loss": 0.059666614737498014,
+      "formula_difference": -0.00015578750584199774,
+      "total_gap": 0.059510827231656016
+    },
+    {
+      "observed_formula_auc": 0.6420306084359836,
+      "latent_formula_auc": 0.7681970884658454,
+      "oracle_auc": 0.7872340425531915,
+      "observation_loss": 0.12616648002986186,
+      "formula_difference": 0.01903695408734607,
+      "total_gap": 0.14520343411720793
+    },
+    {
+      "observed_formula_auc": 0.7324503311258278,
+      "latent_formula_auc": 0.8725165562913907,
+      "oracle_auc": 0.8576158940397351,
+      "observation_loss": 0.14006622516556289,
+      "formula_difference": -0.014900662251655539,
+      "total_gap": 0.12516556291390735
+    },
+    {
+      "observed_formula_auc": 0.770935960591133,
+      "latent_formula_auc": 0.8731527093596059,
+      "oracle_auc": 0.8753694581280789,
+      "observation_loss": 0.10221674876847286,
+      "formula_difference": 0.002216748768472998,
+      "total_gap": 0.10443349753694586
+    },
+    {
+      "observed_formula_auc": 0.6067708333333334,
+      "latent_formula_auc": 0.7482096354166666,
+      "oracle_auc": 0.7635904947916666,
+      "observation_loss": 0.14143880208333326,
+      "formula_difference": 0.015380859375,
+      "total_gap": 0.15681966145833326
+    },
+    {
+      "observed_formula_auc": 0.6300904977375565,
+      "latent_formula_auc": 0.7449095022624435,
+      "oracle_auc": 0.7450980392156863,
+      "observation_loss": 0.11481900452488691,
+      "formula_difference": 0.00018853695324283493,
+      "total_gap": 0.11500754147812975
+    },
+    {
+      "observed_formula_auc": 0.7349828820417056,
+      "latent_formula_auc": 0.8065670712729536,
+      "oracle_auc": 0.8157485216308745,
+      "observation_loss": 0.07158418923124799,
+      "formula_difference": 0.00918145035792095,
+      "total_gap": 0.08076563958916894
+    },
+    {
+      "observed_formula_auc": 0.7502606882168926,
+      "latent_formula_auc": 0.7968369829683698,
+      "oracle_auc": 0.8246437261035802,
+      "observation_loss": 0.046576294751477176,
+      "formula_difference": 0.027806743135210366,
+      "total_gap": 0.07438303788668754
+    },
+    {
+      "observed_formula_auc": 0.724624060150376,
+      "latent_formula_auc": 0.8216165413533835,
+      "oracle_auc": 0.8092105263157895,
+      "observation_loss": 0.09699248120300752,
+      "formula_difference": -0.012406015037593976,
+      "total_gap": 0.08458646616541354
+    },
+    {
+      "observed_formula_auc": 0.8922865013774105,
+      "latent_formula_auc": 0.9104683195592287,
+      "oracle_auc": 0.9099173553719008,
+      "observation_loss": 0.018181818181818188,
+      "formula_difference": -0.0005509641873279181,
+      "total_gap": 0.01763085399449027
+    },
+    {
+      "observed_formula_auc": 0.7513184584178499,
+      "latent_formula_auc": 0.8176470588235294,
+      "oracle_auc": 0.8172413793103448,
+      "observation_loss": 0.06632860040567945,
+      "formula_difference": -0.00040567951318459805,
+      "total_gap": 0.06592292089249485
+    },
+    {
+      "observed_formula_auc": 0.6804511278195489,
+      "latent_formula_auc": 0.7573812580231065,
+      "oracle_auc": 0.7187786539519531,
+      "observation_loss": 0.07693013020355766,
+      "formula_difference": -0.03860260407115346,
+      "total_gap": 0.0383275261324042
+    },
+    {
+      "observed_formula_auc": 0.7304002951484966,
+      "latent_formula_auc": 0.7580704667035603,
+      "oracle_auc": 0.7573325954620919,
+      "observation_loss": 0.027670171555063683,
+      "formula_difference": -0.0007378712414684019,
+      "total_gap": 0.02693230031359528
+    },
+    {
+      "observed_formula_auc": 0.787765444015444,
+      "latent_formula_auc": 0.8324083011583011,
+      "oracle_auc": 0.856418918918919,
+      "observation_loss": 0.044642857142857095,
+      "formula_difference": 0.02401061776061786,
+      "total_gap": 0.06865347490347495
+    },
+    {
+      "observed_formula_auc": 0.6742919389978214,
+      "latent_formula_auc": 0.8910675381263616,
+      "oracle_auc": 0.9360021786492375,
+      "observation_loss": 0.21677559912854028,
+      "formula_difference": 0.04493464052287588,
+      "total_gap": 0.26171023965141615
+    },
+    {
+      "observed_formula_auc": 0.6390669515669516,
+      "latent_formula_auc": 0.8913817663817664,
+      "oracle_auc": 0.91755698005698,
+      "observation_loss": 0.25231481481481477,
+      "formula_difference": 0.026175213675213693,
+      "total_gap": 0.27849002849002846
+    },
+    {
+      "observed_formula_auc": 0.7483288770053476,
+      "latent_formula_auc": 0.7489973262032086,
+      "oracle_auc": 0.7700534759358288,
+      "observation_loss": 0.0006684491978610207,
+      "formula_difference": 0.021056149732620266,
+      "total_gap": 0.021724598930481287
+    },
+    {
+      "observed_formula_auc": 0.67,
+      "latent_formula_auc": 0.9307894736842105,
+      "oracle_auc": 0.9334210526315789,
+      "observation_loss": 0.26078947368421046,
+      "formula_difference": 0.0026315789473684292,
+      "total_gap": 0.2634210526315789
+    },
+    {
+      "observed_formula_auc": 0.7467096774193548,
+      "latent_formula_auc": 0.8330322580645161,
+      "oracle_auc": 0.8532903225806452,
+      "observation_loss": 0.0863225806451613,
+      "formula_difference": 0.020258064516129104,
+      "total_gap": 0.1065806451612904
+    },
+    {
+      "observed_formula_auc": 0.6642685851318945,
+      "latent_formula_auc": 0.7725248372730387,
+      "oracle_auc": 0.775265501884207,
+      "observation_loss": 0.1082562521411442,
+      "formula_difference": 0.0027406646111682864,
+      "total_gap": 0.11099691675231249
+    },
+    {
+      "observed_formula_auc": 0.7631302521008403,
+      "latent_formula_auc": 0.8051470588235294,
+      "oracle_auc": 0.8181022408963585,
+      "observation_loss": 0.04201680672268915,
+      "formula_difference": 0.012955182072829086,
+      "total_gap": 0.054971988795518234
+    },
+    {
+      "observed_formula_auc": 0.6408730158730159,
+      "latent_formula_auc": 0.7716269841269842,
+      "oracle_auc": 0.7871031746031746,
+      "observation_loss": 0.13075396825396823,
+      "formula_difference": 0.015476190476190421,
+      "total_gap": 0.14623015873015865
+    },
+    {
+      "observed_formula_auc": 0.7045454545454546,
+      "latent_formula_auc": 0.9526515151515151,
+      "oracle_auc": 0.9564393939393939,
+      "observation_loss": 0.24810606060606055,
+      "formula_difference": 0.0037878787878787845,
+      "total_gap": 0.25189393939393934
+    },
+    {
+      "observed_formula_auc": 0.6973299958281185,
+      "latent_formula_auc": 0.7661660408844388,
+      "oracle_auc": 0.7471839799749687,
+      "observation_loss": 0.06883604505632035,
+      "formula_difference": -0.01898206090947019,
+      "total_gap": 0.04985398414685016
+    },
+    {
+      "observed_formula_auc": 0.6940559440559441,
+      "latent_formula_auc": 0.7457167832167833,
+      "oracle_auc": 0.7381993006993007,
+      "observation_loss": 0.05166083916083919,
+      "formula_difference": -0.007517482517482521,
+      "total_gap": 0.04414335664335667
+    },
+    {
+      "observed_formula_auc": 0.6175758704151927,
+      "latent_formula_auc": 0.7350586482964067,
+      "oracle_auc": 0.6966114317631726,
+      "observation_loss": 0.11748277788121397,
+      "formula_difference": -0.03844721653323402,
+      "total_gap": 0.07903556134797995
+    },
+    {
+      "observed_formula_auc": 0.6629346904156065,
+      "latent_formula_auc": 0.8089058524173028,
+      "oracle_auc": 0.7971162001696352,
+      "observation_loss": 0.14597116200169635,
+      "formula_difference": -0.011789652247667592,
+      "total_gap": 0.13418150975402876
+    },
+    {
+      "observed_formula_auc": 0.6761265909872721,
+      "latent_formula_auc": 0.9327485380116959,
+      "oracle_auc": 0.9275885792913656,
+      "observation_loss": 0.25662194702442376,
+      "formula_difference": -0.00515995872033026,
+      "total_gap": 0.2514619883040935
+    },
+    {
+      "observed_formula_auc": 0.864043630697312,
+      "latent_formula_auc": 0.9289053369692247,
+      "oracle_auc": 0.9072847682119205,
+      "observation_loss": 0.06486170627191268,
+      "formula_difference": -0.021620568757304226,
+      "total_gap": 0.04324113751460845
+    },
+    {
+      "observed_formula_auc": 0.7286235662148071,
+      "latent_formula_auc": 0.8592283628779979,
+      "oracle_auc": 0.8370698644421272,
+      "observation_loss": 0.1306047966631908,
+      "formula_difference": -0.0221584984358707,
+      "total_gap": 0.1084462982273201
+    },
+    {
+      "observed_formula_auc": 0.6633428300094967,
+      "latent_formula_auc": 0.8368471035137702,
+      "oracle_auc": 0.8490978157644824,
+      "observation_loss": 0.17350427350427355,
+      "formula_difference": 0.01225071225071217,
+      "total_gap": 0.18575498575498572
+    },
+    {
+      "observed_formula_auc": 0.7353479853479854,
+      "latent_formula_auc": 0.9328449328449329,
+      "oracle_auc": 0.9297924297924298,
+      "observation_loss": 0.19749694749694746,
+      "formula_difference": -0.0030525030525030417,
+      "total_gap": 0.19444444444444442
+    },
+    {
+      "observed_formula_auc": 0.8056561996779388,
+      "latent_formula_auc": 0.8502415458937198,
+      "oracle_auc": 0.8234702093397746,
+      "observation_loss": 0.04458534621578103,
+      "formula_difference": -0.026771336553945257,
+      "total_gap": 0.017814009661835772
+    },
+    {
+      "observed_formula_auc": 0.6908108108108109,
+      "latent_formula_auc": 0.8156756756756757,
+      "oracle_auc": 0.8521621621621621,
+      "observation_loss": 0.12486486486486481,
+      "formula_difference": 0.03648648648648645,
+      "total_gap": 0.16135135135135126
+    },
+    {
+      "observed_formula_auc": 0.7461028192371476,
+      "latent_formula_auc": 0.8034825870646766,
+      "oracle_auc": 0.8038142620232173,
+      "observation_loss": 0.05737976782752896,
+      "formula_difference": 0.0003316749585406953,
+      "total_gap": 0.057711442786069655
+    },
+    {
+      "observed_formula_auc": 0.725177304964539,
+      "latent_formula_auc": 0.871580547112462,
+      "oracle_auc": 0.8880445795339412,
+      "observation_loss": 0.146403242147923,
+      "formula_difference": 0.016464032421479202,
+      "total_gap": 0.1628672745694022
+    },
+    {
+      "observed_formula_auc": 0.6641912276630308,
+      "latent_formula_auc": 0.820608029705268,
+      "oracle_auc": 0.8282664191227663,
+      "observation_loss": 0.15641680204223718,
+      "formula_difference": 0.007658389417498301,
+      "total_gap": 0.16407519145973548
+    },
+    {
+      "observed_formula_auc": 0.6767730496453901,
+      "latent_formula_auc": 0.7670212765957447,
+      "oracle_auc": 0.7558510638297873,
+      "observation_loss": 0.09024822695035462,
+      "formula_difference": -0.011170212765957421,
+      "total_gap": 0.0790780141843972
+    },
+    {
+      "observed_formula_auc": 0.7689161554192229,
+      "latent_formula_auc": 0.8353783231083844,
+      "oracle_auc": 0.8348670756646217,
+      "observation_loss": 0.06646216768916158,
+      "formula_difference": -0.0005112474437627412,
+      "total_gap": 0.06595092024539884
+    },
+    {
+      "observed_formula_auc": 0.7938119981105338,
+      "latent_formula_auc": 0.8443552196504488,
+      "oracle_auc": 0.8618327822390175,
+      "observation_loss": 0.05054322153991497,
+      "formula_difference": 0.017477562588568696,
+      "total_gap": 0.06802078412848367
+    },
+    {
+      "observed_formula_auc": 0.684,
+      "latent_formula_auc": 0.8303448275862069,
+      "oracle_auc": 0.8292413793103448,
+      "observation_loss": 0.14634482758620682,
+      "formula_difference": -0.0011034482758620623,
+      "total_gap": 0.14524137931034475
+    },
+    {
+      "observed_formula_auc": 0.7412173202614379,
+      "latent_formula_auc": 0.8190359477124183,
+      "oracle_auc": 0.8369076797385621,
+      "observation_loss": 0.07781862745098034,
+      "formula_difference": 0.017871732026143783,
+      "total_gap": 0.09569035947712412
+    },
+    {
+      "observed_formula_auc": 0.6689256198347108,
+      "latent_formula_auc": 0.7694214876033058,
+      "oracle_auc": 0.7704132231404959,
+      "observation_loss": 0.10049586776859498,
+      "formula_difference": 0.0009917355371901193,
+      "total_gap": 0.1014876033057851
+    },
+    {
+      "observed_formula_auc": 0.6390312063344201,
+      "latent_formula_auc": 0.7595093929514051,
+      "oracle_auc": 0.7501164415463437,
+      "observation_loss": 0.12047818661698495,
+      "formula_difference": -0.009392951405061356,
+      "total_gap": 0.1110852352119236
+    },
+    {
+      "observed_formula_auc": 0.8783832551425478,
+      "latent_formula_auc": 0.975821003247925,
+      "oracle_auc": 0.9812342114760014,
+      "observation_loss": 0.0974377481053772,
+      "formula_difference": 0.005413208228076449,
+      "total_gap": 0.10285095633345365
+    },
+    {
+      "observed_formula_auc": 0.7664502164502165,
+      "latent_formula_auc": 0.8393939393939394,
+      "oracle_auc": 0.8625541125541125,
+      "observation_loss": 0.07294372294372287,
+      "formula_difference": 0.02316017316017316,
+      "total_gap": 0.09610389610389602
+    },
+    {
+      "observed_formula_auc": 0.8961145194274028,
+      "latent_formula_auc": 0.9486707566462168,
+      "oracle_auc": 0.9770961145194274,
+      "observation_loss": 0.05255623721881397,
+      "formula_difference": 0.028425357873210544,
+      "total_gap": 0.08098159509202452
+    },
+    {
+      "observed_formula_auc": 0.7390804597701149,
+      "latent_formula_auc": 0.8310344827586207,
+      "oracle_auc": 0.8583333333333333,
+      "observation_loss": 0.09195402298850575,
+      "formula_difference": 0.027298850574712596,
+      "total_gap": 0.11925287356321834
+    },
+    {
+      "observed_formula_auc": 0.6901234567901234,
+      "latent_formula_auc": 0.7997942386831276,
+      "oracle_auc": 0.7878600823045268,
+      "observation_loss": 0.10967078189300417,
+      "formula_difference": -0.011934156378600846,
+      "total_gap": 0.09773662551440332
+    },
+    {
+      "observed_formula_auc": 0.6635289774824659,
+      "latent_formula_auc": 0.748984865263935,
+      "oracle_auc": 0.7751937984496124,
+      "observation_loss": 0.08545588778146918,
+      "formula_difference": 0.026208933185677408,
+      "total_gap": 0.11166482096714658
+    },
+    {
+      "observed_formula_auc": 0.701875239188672,
+      "latent_formula_auc": 0.7841561423650976,
+      "oracle_auc": 0.7858783008036739,
+      "observation_loss": 0.08228090317642556,
+      "formula_difference": 0.001722158438576371,
+      "total_gap": 0.08400306161500193
+    },
+    {
+      "observed_formula_auc": 0.6388601928374655,
+      "latent_formula_auc": 0.712379476584022,
+      "oracle_auc": 0.7108298898071626,
+      "observation_loss": 0.07351928374655647,
+      "formula_difference": -0.0015495867768594573,
+      "total_gap": 0.07196969696969702
+    },
+    {
+      "observed_formula_auc": 0.7403100775193798,
+      "latent_formula_auc": 0.7464763918252291,
+      "oracle_auc": 0.7482381959126145,
+      "observation_loss": 0.006166314305849241,
+      "formula_difference": 0.0017618040873854657,
+      "total_gap": 0.007928118393234707
+    },
+    {
+      "observed_formula_auc": 0.7134502923976608,
+      "latent_formula_auc": 0.8386591478696742,
+      "oracle_auc": 0.8523391812865497,
+      "observation_loss": 0.12520885547201344,
+      "formula_difference": 0.013680033416875514,
+      "total_gap": 0.13888888888888895
+    },
+    {
+      "observed_formula_auc": 0.7038246268656716,
+      "latent_formula_auc": 0.8260261194029851,
+      "oracle_auc": 0.8299906716417911,
+      "observation_loss": 0.1222014925373135,
+      "formula_difference": 0.003964552238805985,
+      "total_gap": 0.12616604477611948
+    },
+    {
+      "observed_formula_auc": 0.7136429374899567,
+      "latent_formula_auc": 0.8035513417965612,
+      "oracle_auc": 0.8013016230114093,
+      "observation_loss": 0.08990840430660452,
+      "formula_difference": -0.0022497187851518996,
+      "total_gap": 0.08765868552145262
+    },
+    {
+      "observed_formula_auc": 0.645617816091954,
+      "latent_formula_auc": 0.7049568965517241,
+      "oracle_auc": 0.7040948275862069,
+      "observation_loss": 0.0593390804597701,
+      "formula_difference": -0.0008620689655172153,
+      "total_gap": 0.058477011494252884
+    },
+    {
+      "observed_formula_auc": 0.6976833976833977,
+      "latent_formula_auc": 0.8016731016731017,
+      "oracle_auc": 0.8486486486486486,
+      "observation_loss": 0.10398970398970397,
+      "formula_difference": 0.046975546975546956,
+      "total_gap": 0.15096525096525093
+    },
+    {
+      "observed_formula_auc": 0.7510624387054593,
+      "latent_formula_auc": 0.9377247466492318,
+      "oracle_auc": 0.941974501471069,
+      "observation_loss": 0.18666230794377248,
+      "formula_difference": 0.004249754821837204,
+      "total_gap": 0.19091206276560968
+    },
+    {
+      "observed_formula_auc": 0.8644880174291939,
+      "latent_formula_auc": 0.9712418300653595,
+      "oracle_auc": 0.9773420479302832,
+      "observation_loss": 0.10675381263616557,
+      "formula_difference": 0.006100217864923763,
+      "total_gap": 0.11285403050108933
+    },
+    {
+      "observed_formula_auc": 0.7634920634920634,
+      "latent_formula_auc": 0.8114285714285714,
+      "oracle_auc": 0.8104761904761905,
+      "observation_loss": 0.047936507936507944,
+      "formula_difference": -0.0009523809523809268,
+      "total_gap": 0.04698412698412702
+    },
+    {
+      "observed_formula_auc": 0.702158273381295,
+      "latent_formula_auc": 0.845940390544707,
+      "oracle_auc": 0.8587872559095581,
+      "observation_loss": 0.14378211716341205,
+      "formula_difference": 0.012846865364851023,
+      "total_gap": 0.15662898252826307
+    },
+    {
+      "observed_formula_auc": 0.7461459403905447,
+      "latent_formula_auc": 0.8246659815005138,
+      "oracle_auc": 0.829393627954779,
+      "observation_loss": 0.07852004110996913,
+      "formula_difference": 0.004727646454265155,
+      "total_gap": 0.08324768756423429
+    },
+    {
+      "observed_formula_auc": 0.7652027027027027,
+      "latent_formula_auc": 0.8249577702702703,
+      "oracle_auc": 0.8067989864864865,
+      "observation_loss": 0.059755067567567544,
+      "formula_difference": -0.018158783783783772,
+      "total_gap": 0.04159628378378377
+    },
+    {
+      "observed_formula_auc": 0.8076923076923077,
+      "latent_formula_auc": 0.8678500986193294,
+      "oracle_auc": 0.8658777120315582,
+      "observation_loss": 0.06015779092702167,
+      "formula_difference": -0.0019723865877712132,
+      "total_gap": 0.05818540433925046
+    },
+    {
+      "observed_formula_auc": 0.8255839100346021,
+      "latent_formula_auc": 0.839424740484429,
+      "oracle_auc": 0.8559688581314879,
+      "observation_loss": 0.01384083044982698,
+      "formula_difference": 0.016544117647058876,
+      "total_gap": 0.030384948096885855
+    },
+    {
+      "observed_formula_auc": 0.6735617897727273,
+      "latent_formula_auc": 0.7228338068181818,
+      "oracle_auc": 0.7198153409090909,
+      "observation_loss": 0.049272017045454475,
+      "formula_difference": -0.0030184659090908283,
+      "total_gap": 0.046253551136363646
+    },
+    {
+      "observed_formula_auc": 0.701187485727335,
+      "latent_formula_auc": 0.7767755195250057,
+      "oracle_auc": 0.7767755195250057,
+      "observation_loss": 0.07558803379767065,
+      "formula_difference": 0.0,
+      "total_gap": 0.07558803379767065
+    },
+    {
+      "observed_formula_auc": 0.687741935483871,
+      "latent_formula_auc": 0.9174193548387096,
+      "oracle_auc": 0.917741935483871,
+      "observation_loss": 0.22967741935483865,
+      "formula_difference": 0.00032258064516133,
+      "total_gap": 0.22999999999999998
+    },
+    {
+      "observed_formula_auc": 0.6512632978723404,
+      "latent_formula_auc": 0.7230718085106383,
+      "oracle_auc": 0.7250664893617021,
+      "observation_loss": 0.07180851063829796,
+      "formula_difference": 0.0019946808510638014,
+      "total_gap": 0.07380319148936176
+    },
+    {
+      "observed_formula_auc": 0.8414965986394558,
+      "latent_formula_auc": 0.8961904761904762,
+      "oracle_auc": 0.9110204081632653,
+      "observation_loss": 0.0546938775510204,
+      "formula_difference": 0.014829931972789145,
+      "total_gap": 0.06952380952380954
+    },
+    {
+      "observed_formula_auc": 0.979746835443038,
+      "latent_formula_auc": 0.9945147679324895,
+      "oracle_auc": 0.9953586497890295,
+      "observation_loss": 0.014767932489451518,
+      "formula_difference": 0.0008438818565400519,
+      "total_gap": 0.01561181434599157
+    },
+    {
+      "observed_formula_auc": 0.7164971251658558,
+      "latent_formula_auc": 0.8042901371074745,
+      "oracle_auc": 0.8222025652366209,
+      "observation_loss": 0.0877930119416187,
+      "formula_difference": 0.017912428129146396,
+      "total_gap": 0.1057054400707651
+    },
+    {
+      "observed_formula_auc": 0.7290167865707434,
+      "latent_formula_auc": 0.790167865707434,
+      "oracle_auc": 0.790167865707434,
+      "observation_loss": 0.0611510791366906,
+      "formula_difference": 0.0,
+      "total_gap": 0.0611510791366906
+    },
+    {
+      "observed_formula_auc": 0.7855072463768116,
+      "latent_formula_auc": 0.8256038647342995,
+      "oracle_auc": 0.8231884057971014,
+      "observation_loss": 0.0400966183574879,
+      "formula_difference": -0.0024154589371980784,
+      "total_gap": 0.03768115942028982
+    },
+    {
+      "observed_formula_auc": 0.8115329069527543,
+      "latent_formula_auc": 0.8837425211471013,
+      "oracle_auc": 0.8999381060449763,
+      "observation_loss": 0.07220961419434702,
+      "formula_difference": 0.01619558489787498,
+      "total_gap": 0.088405199092222
+    },
+    {
+      "observed_formula_auc": 0.8401709401709402,
+      "latent_formula_auc": 0.9179487179487179,
+      "oracle_auc": 0.9213675213675213,
+      "observation_loss": 0.07777777777777772,
+      "formula_difference": 0.0034188034188034067,
+      "total_gap": 0.08119658119658113
+    },
+    {
+      "observed_formula_auc": 0.7201666666666666,
+      "latent_formula_auc": 0.8268333333333333,
+      "oracle_auc": 0.826,
+      "observation_loss": 0.10666666666666669,
+      "formula_difference": -0.0008333333333333526,
+      "total_gap": 0.10583333333333333
+    },
+    {
+      "observed_formula_auc": 0.7432432432432432,
+      "latent_formula_auc": 0.8427754677754677,
+      "oracle_auc": 0.8597972972972973,
+      "observation_loss": 0.09953222453222454,
+      "formula_difference": 0.017021829521829512,
+      "total_gap": 0.11655405405405406
+    },
+    {
+      "observed_formula_auc": 0.6817917956656346,
+      "latent_formula_auc": 0.7924729102167183,
+      "oracle_auc": 0.8259481424148607,
+      "observation_loss": 0.11068111455108365,
+      "formula_difference": 0.03347523219814241,
+      "total_gap": 0.14415634674922606
+    },
+    {
+      "observed_formula_auc": 0.7118096357226792,
+      "latent_formula_auc": 0.8672150411280846,
+      "oracle_auc": 0.8930669800235017,
+      "observation_loss": 0.15540540540540537,
+      "formula_difference": 0.025851938895417148,
+      "total_gap": 0.18125734430082252
+    },
+    {
+      "observed_formula_auc": 0.665214431586113,
+      "latent_formula_auc": 0.7628999319264806,
+      "oracle_auc": 0.7722260040844111,
+      "observation_loss": 0.0976855003403676,
+      "formula_difference": 0.009326072157930465,
+      "total_gap": 0.10701157249829807
+    },
+    {
+      "observed_formula_auc": 0.7268303004655099,
+      "latent_formula_auc": 0.8239526026237833,
+      "oracle_auc": 0.8548455353364367,
+      "observation_loss": 0.09712230215827344,
+      "formula_difference": 0.030892932712653365,
+      "total_gap": 0.1280152348709268
+    },
+    {
+      "observed_formula_auc": 0.6639183673469388,
+      "latent_formula_auc": 0.7782040816326531,
+      "oracle_auc": 0.7803265306122449,
+      "observation_loss": 0.11428571428571432,
+      "formula_difference": 0.0021224489795917956,
+      "total_gap": 0.11640816326530612
+    },
+    {
+      "observed_formula_auc": 0.7221959858323495,
+      "latent_formula_auc": 0.8113341204250295,
+      "oracle_auc": 0.8279811097992916,
+      "observation_loss": 0.08913813459268005,
+      "formula_difference": 0.016646989374262122,
+      "total_gap": 0.10578512396694217
+    },
+    {
+      "observed_formula_auc": 0.707586851534507,
+      "latent_formula_auc": 0.7776133354105,
+      "oracle_auc": 0.7776133354105,
+      "observation_loss": 0.07002648387599308,
+      "formula_difference": 0.0,
+      "total_gap": 0.07002648387599308
+    },
+    {
+      "observed_formula_auc": 0.6996545417598049,
+      "latent_formula_auc": 0.8588701483438326,
+      "oracle_auc": 0.8736029262345052,
+      "observation_loss": 0.15921560658402767,
+      "formula_difference": 0.014732777890672621,
+      "total_gap": 0.1739483844747003
+    },
+    {
+      "observed_formula_auc": 0.7095238095238096,
+      "latent_formula_auc": 0.7777777777777778,
+      "oracle_auc": 0.763265306122449,
+      "observation_loss": 0.06825396825396823,
+      "formula_difference": -0.014512471655328762,
+      "total_gap": 0.05374149659863947
+    },
+    {
+      "observed_formula_auc": 0.7565926439972241,
+      "latent_formula_auc": 0.878556557945871,
+      "oracle_auc": 0.8657182512144345,
+      "observation_loss": 0.12196391394864681,
+      "formula_difference": -0.012838306731436488,
+      "total_gap": 0.10912560721721032
+    },
+    {
+      "observed_formula_auc": 0.9758771929824561,
+      "latent_formula_auc": 0.9856237816764133,
+      "oracle_auc": 0.9875730994152047,
+      "observation_loss": 0.00974658869395717,
+      "formula_difference": 0.0019493177387913674,
+      "total_gap": 0.011695906432748537
+    },
+    {
+      "observed_formula_auc": 0.7770700636942676,
+      "latent_formula_auc": 0.8885350318471338,
+      "oracle_auc": 0.8882455124493341,
+      "observation_loss": 0.11146496815286622,
+      "formula_difference": -0.0002895193977996424,
+      "total_gap": 0.11117544875506657
+    },
+    {
+      "observed_formula_auc": 0.7076923076923077,
+      "latent_formula_auc": 0.7551594746716698,
+      "oracle_auc": 0.7960600375234521,
+      "observation_loss": 0.04746716697936204,
+      "formula_difference": 0.04090056285178234,
+      "total_gap": 0.08836772983114438
+    },
+    {
+      "observed_formula_auc": 0.7481751824817519,
+      "latent_formula_auc": 0.7835655828356558,
+      "oracle_auc": 0.8134262331342623,
+      "observation_loss": 0.03539040035390395,
+      "formula_difference": 0.029860650298606517,
+      "total_gap": 0.06525105065251047
+    },
+    {
+      "observed_formula_auc": 0.7111007462686567,
+      "latent_formula_auc": 0.7114738805970149,
+      "oracle_auc": 0.7127798507462687,
+      "observation_loss": 0.0003731343283581712,
+      "formula_difference": 0.0013059701492538212,
+      "total_gap": 0.0016791044776119923
+    },
+    {
+      "observed_formula_auc": 0.6609848484848485,
+      "latent_formula_auc": 0.7669631093544137,
+      "oracle_auc": 0.7551877470355731,
+      "observation_loss": 0.10597826086956519,
+      "formula_difference": -0.011775362318840576,
+      "total_gap": 0.09420289855072461
+    },
+    {
+      "observed_formula_auc": 0.7283660130718954,
+      "latent_formula_auc": 0.8115032679738562,
+      "oracle_auc": 0.829673202614379,
+      "observation_loss": 0.08313725490196078,
+      "formula_difference": 0.018169934640522856,
+      "total_gap": 0.10130718954248363
+    },
+    {
+      "observed_formula_auc": 0.6846153846153846,
+      "latent_formula_auc": 0.7860398860398861,
+      "oracle_auc": 0.778062678062678,
+      "observation_loss": 0.10142450142450143,
+      "formula_difference": -0.007977207977208023,
+      "total_gap": 0.09344729344729341
+    }
+  ]
+}

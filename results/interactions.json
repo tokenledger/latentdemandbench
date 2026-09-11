@@ -1,0 +1,329 @@
+{
+ "assist_by_model": {
+  "models": [
+   "gpt-5.6-luna",
+   "gpt-5.6-terra"
+  ],
+  "metric": "auc",
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29
+  ],
+  "arms": {
+   "assist_composition": {
+    "within_gpt-5.6-luna": {
+     "mean": 0.06432648306726875,
+     "lo": 0.041605067761472415,
+     "hi": 0.08771675216728159,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": true
+    },
+    "within_gpt-5.6-terra": {
+     "mean": 0.005558333422258096,
+     "lo": -0.010399502847487498,
+     "hi": 0.0207415431122569,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": false
+    },
+    "difference_in_differences": {
+     "mean": 0.05876814964501064,
+     "lo": 0.03452196723448611,
+     "hi": 0.08318487026196955,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": true
+    }
+   },
+   "assist_gate": {
+    "within_gpt-5.6-luna": {
+     "mean": 0.003197818265870711,
+     "lo": -0.013462855253876738,
+     "hi": 0.020783807133092778,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": false
+    },
+    "within_gpt-5.6-terra": {
+     "mean": -0.004181396990630985,
+     "lo": -0.024784824923507164,
+     "hi": 0.017774096173531685,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": false
+    },
+    "difference_in_differences": {
+     "mean": 0.0073792152565016955,
+     "lo": -0.023269677330103863,
+     "hi": 0.03768750692434143,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": false
+    }
+   },
+   "assist_both": {
+    "within_gpt-5.6-luna": {
+     "mean": 0.08091650752323319,
+     "lo": 0.05867725531335444,
+     "hi": 0.10354346610986832,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": true
+    },
+    "within_gpt-5.6-terra": {
+     "mean": 0.01335295004326963,
+     "lo": 0.0009244983945599966,
+     "hi": 0.025827159597807726,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": true
+    },
+    "difference_in_differences": {
+     "mean": 0.06756355747996355,
+     "lo": 0.043245479906638254,
+     "hi": 0.09242852811104585,
+     "n": 30,
+     "n_used": 30,
+     "excludes_zero": true
+    }
+   }
+  }
+ },
+ "subset_by_model": {
+  "gpt-5.6-luna": {
+   "model": "gpt-5.6-luna",
+   "arm": "results/luna_full/surface_finance.json",
+   "ranker": "openai:gpt-5.6-luna@default",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "gap_auc_deficit": {
+    "mean": -0.10108447314785976,
+    "lo": -0.1495619766178141,
+    "hi": -0.05586746183968632,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": true
+   },
+   "mentioned_auc_deficit": {
+    "mean": -0.11508784313196467,
+    "lo": -0.14078693773732692,
+    "hi": -0.09047271770565773,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": true
+   },
+   "interaction_gap_minus_mentioned": {
+    "mean": 0.014003369984104874,
+    "lo": -0.03515605627690408,
+    "hi": 0.06178133688166434,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": false
+   },
+   "vs": "fair_reference",
+   "pairing": "by universe; the two subsets are disjoint candidate sets within the same universe, so items are not comparable but the universe is"
+  },
+  "gpt-5.6-terra": {
+   "model": "gpt-5.6-terra",
+   "arm": "results/terra_full/surface_finance.json",
+   "ranker": "openai:gpt-5.6-terra@default",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "gap_auc_deficit": {
+    "mean": -0.007159185368297857,
+    "lo": -0.03757437166714254,
+    "hi": 0.02353717449767853,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": false
+   },
+   "mentioned_auc_deficit": {
+    "mean": -0.061805642261254214,
+    "lo": -0.09953980604292377,
+    "hi": -0.031006218501284287,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": true
+   },
+   "interaction_gap_minus_mentioned": {
+    "mean": 0.05464645689295636,
+    "lo": 0.008789515991771404,
+    "hi": 0.1002163655449768,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": true
+   },
+   "vs": "fair_reference",
+   "pairing": "by universe; the two subsets are disjoint candidate sets within the same universe, so items are not comparable but the universe is"
+  },
+  "Qwen/Qwen3-32B": {
+   "model": "Qwen/Qwen3-32B",
+   "arm": "results/openweight/model_finance.json",
+   "ranker": "modal-vllm:Qwen/Qwen3-32B@batch",
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "gap_auc_deficit": {
+    "mean": -0.19275270062613709,
+    "lo": -0.22984900792407573,
+    "hi": -0.15551668638509616,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": true
+   },
+   "mentioned_auc_deficit": {
+    "mean": -0.21046357845491032,
+    "lo": -0.23880518569463186,
+    "hi": -0.18264326489858682,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": true
+   },
+   "interaction_gap_minus_mentioned": {
+    "mean": 0.017710877828773196,
+    "lo": -0.017354249606576815,
+    "hi": 0.05175276092015691,
+    "n": 30,
+    "n_used": 30,
+    "excludes_zero": false
+   },
+   "vs": "fair_reference",
+   "pairing": "by universe; the two subsets are disjoint candidate sets within the same universe, so items are not comparable but the universe is"
+  }
+ },
+ "config": {
+  "code_hash": "6b2630d26248899e",
+  "reference": "fair_reference",
+  "assist_metric": "auc",
+  "dirs": [
+   "results/luna_full",
+   "results/terra_full"
+  ],
+  "arms": [
+   "results/luna_full/surface_finance.json",
+   "results/terra_full/surface_finance.json",
+   "results/openweight/model_finance.json"
+  ],
+  "subset_artifact": "results/probe_subset.json",
+  "subset_artifact_code_hash": "6b2630d26248899e",
+  "pairing": "universe is the resampling unit for every bootstrap; NaN universes dropped, n_used given"
+ }
+}

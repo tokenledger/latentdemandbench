@@ -1,0 +1,178 @@
+=== SECTOR DOSSIER, QUARTER 20 ===
+All figures below are as reported at the cutoff quarter. Attribute measurements are instrument readings and carry error.
+
+--- TECHNICAL PUBLICATIONS: capability characterisation ---
+[TP-C0] Characterisation of Tarnent-29. Measured attribute profile: thermal 0.84, latency 0.13, purity 0.19, throughput 0.17, stability 1.02. Observed downstream effect: Yssoth response.
+[TP-C1] Characterisation of Rethock. Measured attribute profile: thermal 0.39, latency 0.60, density 0.72, purity 0.15. Observed downstream effect: Kelith-49 response.
+[TP-C2] Characterisation of Phaeir-2. Measured attribute profile: thermal 0.76, latency 0.34, purity 0.87. Observed downstream effect: Lunum response.
+[TP-C3] Characterisation of Hulost. Measured attribute profile: density 0.44, purity 0.75, stability 0.49. Observed downstream effect: Tamir response.
+[TP-C4] Characterisation of Phaeax-84. Measured attribute profile: coherence 0.52, yield 0.88, latency 0.84, purity 0.21, throughput 0.30. Observed downstream effect: Breel response.
+[TP-C5] Characterisation of Kelax. Measured attribute profile: thermal 0.36, yield 0.82, purity 0.34, throughput 0.20. Observed downstream effect: Cavash-77 response.
+[TP-C6] Characterisation of Phaeule-72. Measured attribute profile: thermal 0.49, coherence 0.21, latency 0.47, throughput 0.12, stability 0.29. Observed downstream effect: Vexilt-68 response.
+[TP-C7] Characterisation of Vexith-34. Measured attribute profile: coherence 0.14, latency 0.49, density 0.23, purity 0.62, stability 1.13. Observed downstream effect: Vexent response.
+[TP-C8] Characterisation of Lunip. Measured attribute profile: thermal 0.23, coherence 0.26, yield 0.54, latency 0.60, density 1.01, purity 0.13. Observed downstream effect: Rethov response.
+[TP-C9] Characterisation of Zirun. Measured attribute profile: thermal 0.31, density 0.86, purity 0.92, stability 1.27. Observed downstream effect: Sithun response.
+
+--- PRODUCT TEARDOWNS: which capabilities each unit embodies ---
+[PT-P0] Breex unit (Iksarn Consortium). Teardown attributes capability: Zirun, Phaeir-2. Issuer position: supply capacity 0.32, distribution reach 0.80, defensibility 0.66 (0-1 scale).
+[PT-P1] Iksel unit (Iksip Consortium). Teardown attributes capability: Kelax, Lunip. Issuer position: supply capacity 0.16, distribution reach 0.78, defensibility 0.43 (0-1 scale).
+[PT-P2] Yssun-2 unit (Tamax Consortium). Teardown attributes capability: Lunip. Issuer position: supply capacity 0.85, distribution reach 0.87, defensibility 0.34 (0-1 scale).
+[PT-P3] Droax-39 unit (Droash Consortium). Teardown attributes capability: Lunip. Issuer position: supply capacity 0.25, distribution reach 0.29, defensibility 0.95 (0-1 scale).
+[PT-P4] Morent unit (Nalov-29 Consortium). Teardown attributes capability: Lunip, Kelax. Issuer position: supply capacity 0.75, distribution reach 0.60, defensibility 0.92 (0-1 scale).
+[PT-P5] Lunule-51 unit (Tamun Consortium). Teardown attributes capability: Lunip, Zirun. Issuer position: supply capacity 0.54, distribution reach 0.86, defensibility 0.71 (0-1 scale).
+[PT-P6] Morarn-48 unit (Moroth Consortium). Teardown attributes capability: Vexith-34, Lunip, Kelax, Rethock. Issuer position: supply capacity 0.65, distribution reach 1.00, defensibility 0.56 (0-1 scale).
+[PT-P7] Iksorr unit (Vexent Consortium). Teardown attributes capability: Phaeir-2, Rethock, Vexith-34. Issuer position: supply capacity 0.61, distribution reach 0.63, defensibility 0.24 (0-1 scale).
+[PT-P8] Breax-88 unit (Tarnel Consortium). Teardown attributes capability: Hulost, Lunip, Tarnent-29. Issuer position: supply capacity 0.91, distribution reach 0.33, defensibility 0.16 (0-1 scale).
+[PT-P9] Tarnilt unit (Lunith Consortium). Teardown attributes capability: Tarnent-29. Issuer position: supply capacity 0.71, distribution reach 0.58, defensibility 0.55 (0-1 scale).
+[PT-P10] Obbel unit (Voryne Consortium). Teardown attributes capability: Phaeule-72. Issuer position: supply capacity 0.98, distribution reach 0.39, defensibility 0.93 (0-1 scale).
+[PT-P11] Yssent unit (Phaeir Consortium). Teardown attributes capability: Tarnent-29. Issuer position: supply capacity 0.22, distribution reach 0.95, defensibility 0.42 (0-1 scale).
+
+--- INDUSTRY PROBLEM REPORTS: unmet needs and their bottlenecks ---
+[PR-N0] Lunade shortfall. Governing bottleneck: Nalost constraint. Relief requires an attribute profile of thermal 0.41, yield 0.93, latency 0.43, density 0.17, throughput 0.69, stability 0.84, with a sufficiency threshold near 0.44 on profile alignment. Deployment additionally depends on: Lunade substrate, Vorarn substrate. Addressable value if served: 7.43 units.
+[PR-N1] Morock shortfall. Governing bottleneck: Tamorr constraint. Relief requires an attribute profile of thermal 0.40, yield 1.01, latency 0.27, density 0.15, purity 0.23, throughput 0.73, with a sufficiency threshold near 0.72 on profile alignment. Deployment additionally depends on: Sithex substrate. Addressable value if served: 2.60 units.
+[PR-N2] Droash shortfall. Governing bottleneck: Hulir constraint. Relief requires an attribute profile of thermal 0.15, coherence 0.98, latency 0.43, purity 0.14, throughput 0.80, stability 0.20, with a sufficiency threshold near 0.66 on profile alignment. Deployment additionally depends on: Yssun-83 substrate, Lunade substrate. Addressable value if served: 0.11 units.
+[PR-N3] Vorum shortfall. Governing bottleneck: Phaeent constraint. Relief requires an attribute profile of thermal 1.30, yield 0.83, density 0.31, purity 1.01, with a sufficiency threshold near 0.55 on profile alignment. Deployment additionally depends on: Obbyne-20 substrate, Vorarn substrate. Addressable value if served: 0.40 units.
+[PR-N4] Yssarn shortfall. Governing bottleneck: Morade-89 constraint. Relief requires an attribute profile of thermal 0.50, coherence 0.73, yield 0.61, purity 0.65, with a sufficiency threshold near 0.43 on profile alignment. Deployment additionally depends on: Vorarn substrate. Addressable value if served: 2.52 units.
+[PR-N5] Nalum shortfall. Governing bottleneck: Vexax constraint. Relief requires an attribute profile of coherence 0.27, yield 0.58, density 0.94, with a sufficiency threshold near 0.61 on profile alignment. Deployment additionally depends on: Yssun-83 substrate. Addressable value if served: 1.16 units.
+[PR-N6] Breade-58 shortfall. Governing bottleneck: Zirent constraint. Relief requires an attribute profile of thermal 0.63, coherence 0.72, yield 0.19, latency 0.88, density 0.97, purity 0.26, with a sufficiency threshold near 0.43 on profile alignment. Deployment additionally depends on: Sithex substrate. Addressable value if served: 0.26 units.
+[PR-N7] Iksent shortfall. Governing bottleneck: Sitharn-83 constraint. Relief requires an attribute profile of coherence 0.32, latency 0.91, density 0.75, purity 0.88, throughput 0.17, with a sufficiency threshold near 0.55 on profile alignment. Deployment additionally depends on: Droun-83 substrate. Addressable value if served: 4.83 units.
+[PR-N8] Tarnum-21 shortfall. Governing bottleneck: Vorent constraint. Relief requires an attribute profile of coherence 0.69, latency 0.43, with a sufficiency threshold near 0.55 on profile alignment. Deployment additionally depends on: Breax substrate, Vorarn substrate. Addressable value if served: 0.47 units.
+[PR-N9] Lunun-65 shortfall. Governing bottleneck: Breost constraint. Relief requires an attribute profile of thermal 0.77, coherence 0.20, yield 0.75, density 0.28, purity 0.81, stability 0.34, with a sufficiency threshold near 0.62 on profile alignment. Deployment additionally depends on: Breax substrate. Addressable value if served: 0.41 units.
+[PR-N10] Iksex shortfall. Governing bottleneck: Tarnilt constraint. Relief requires an attribute profile of thermal 0.48, coherence 0.78, yield 0.24, density 0.50, with a sufficiency threshold near 0.52 on profile alignment. Deployment additionally depends on: Yssun-83 substrate, Sithex substrate. Addressable value if served: 0.67 units.
+[PR-N11] Vexash shortfall. Governing bottleneck: Yssyne constraint. Relief requires an attribute profile of coherence 0.72, latency 0.20, density 0.52, throughput 0.83, stability 0.13, with a sufficiency threshold near 0.71 on profile alignment. Deployment additionally depends on: Nalel substrate. Addressable value if served: 2.35 units.
+[PR-N12] Tamule shortfall. Governing bottleneck: Tamost constraint. Relief requires an attribute profile of coherence 0.63, purity 0.39, throughput 1.08, stability 0.70, with a sufficiency threshold near 0.67 on profile alignment. Deployment additionally depends on: Vorarn substrate. Addressable value if served: 0.62 units.
+[PR-N13] Rethilt shortfall. Governing bottleneck: Yssov constraint. Relief requires an attribute profile of yield 0.69, density 0.48, purity 0.12, stability 0.95, with a sufficiency threshold near 0.73 on profile alignment. Deployment additionally depends on: Vorarn substrate. Addressable value if served: 1.50 units.
+[PR-N14] Vorex shortfall. Governing bottleneck: Obbum-30 constraint. Relief requires an attribute profile of thermal 0.15, coherence 0.28, yield 0.19, latency 0.43, density 0.32, purity 0.38, with a sufficiency threshold near 0.65 on profile alignment. Deployment additionally depends on: Sithex substrate, Obbyne-20 substrate. Addressable value if served: 2.85 units.
+
+--- SUPPLY / READINESS NOTES: complement availability ---
+[SR-K0] Sithex substrate: no announced availability.
+[SR-K1] Yssun-83 substrate: available since quarter 17.
+[SR-K2] Droun-83 substrate: guided to quarter 25.
+[SR-K3] Lunade substrate: guided to quarter 21.
+[SR-K4] Vorarn substrate: available since quarter 0.
+[SR-K5] Breax substrate: no announced availability.
+[SR-K6] Nalel substrate: available since quarter 13.
+[SR-K7] Obbyne-20 substrate: guided to quarter 22.
+
+--- REALIZED DEPLOYMENTS: pairings already in commercial service ---
+[RZ] Iksel unit is already deployed against Rethilt shortfall; this pairing is history, not a forecast candidate.
+[RZ] Lunule-51 unit is already deployed against Yssarn shortfall; this pairing is history, not a forecast candidate.
+[RZ] Lunule-51 unit is already deployed against Nalum shortfall; this pairing is history, not a forecast candidate.
+[RZ] Morarn-48 unit is already deployed against Rethilt shortfall; this pairing is history, not a forecast candidate.
+[RZ] Morarn-48 unit is already deployed against Yssarn shortfall; this pairing is history, not a forecast candidate.
+
+--- FINANCIAL NARRATIVES: what the market currently discusses ---
+[FN] Iksel unit is discussed by 5 sell-side sources in connection with Rethilt shortfall.
+[FN] Morarn-48 unit is discussed by 5 sell-side sources in connection with Rethilt shortfall.
+[FN] Iksel unit is discussed by 4 sell-side sources in connection with Yssarn shortfall.
+[FN] Lunule-51 unit is discussed by 4 sell-side sources in connection with Morock shortfall.
+[FN] Lunule-51 unit is discussed by 4 sell-side sources in connection with Yssarn shortfall.
+[FN] Morarn-48 unit is discussed by 4 sell-side sources in connection with Yssarn shortfall.
+[FN] Obbel unit is discussed by 4 sell-side sources in connection with Morock shortfall.
+[FN] Obbel unit is discussed by 4 sell-side sources in connection with Nalum shortfall.
+[FN] Yssent unit is discussed by 4 sell-side sources in connection with Nalum shortfall.
+[FN] Breex unit is discussed by 3 sell-side sources in connection with Morock shortfall.
+[FN] Breex unit is discussed by 3 sell-side sources in connection with Droash shortfall.
+[FN] Breex unit is discussed by 3 sell-side sources in connection with Vorum shortfall.
+[FN] Iksel unit is discussed by 3 sell-side sources in connection with Nalum shortfall.
+[FN] Yssun-2 unit is discussed by 3 sell-side sources in connection with Rethilt shortfall.
+[FN] Droax-39 unit is discussed by 3 sell-side sources in connection with Rethilt shortfall.
+[FN] Morent unit is discussed by 3 sell-side sources in connection with Lunun-65 shortfall.
+[FN] Lunule-51 unit is discussed by 3 sell-side sources in connection with Lunun-65 shortfall.
+[FN] Iksorr unit is discussed by 3 sell-side sources in connection with Rethilt shortfall.
+[FN] Iksorr unit is discussed by 3 sell-side sources in connection with Vorex shortfall.
+[FN] Breax-88 unit is discussed by 3 sell-side sources in connection with Yssarn shortfall.
+[FN] Breax-88 unit is discussed by 3 sell-side sources in connection with Vexash shortfall.
+[FN] Obbel unit is discussed by 3 sell-side sources in connection with Vorum shortfall.
+[FN] Obbel unit is discussed by 3 sell-side sources in connection with Tamule shortfall.
+[FN] Breex unit is discussed by 2 sell-side sources in connection with Yssarn shortfall.
+[FN] Breex unit is discussed by 2 sell-side sources in connection with Lunun-65 shortfall.
+[FN] Iksel unit is discussed by 2 sell-side sources in connection with Morock shortfall.
+[FN] Iksel unit is discussed by 2 sell-side sources in connection with Droash shortfall.
+[FN] Iksel unit is discussed by 2 sell-side sources in connection with Iksex shortfall.
+[FN] Yssun-2 unit is discussed by 2 sell-side sources in connection with Lunade shortfall.
+[FN] Yssun-2 unit is discussed by 2 sell-side sources in connection with Yssarn shortfall.
+[FN] Droax-39 unit is discussed by 2 sell-side sources in connection with Lunade shortfall.
+[FN] Droax-39 unit is discussed by 2 sell-side sources in connection with Morock shortfall.
+[FN] Morent unit is discussed by 2 sell-side sources in connection with Nalum shortfall.
+[FN] Lunule-51 unit is discussed by 2 sell-side sources in connection with Nalum shortfall.
+[FN] Lunule-51 unit is discussed by 2 sell-side sources in connection with Iksex shortfall.
+[FN] Morarn-48 unit is discussed by 2 sell-side sources in connection with Vorum shortfall.
+[FN] Morarn-48 unit is discussed by 2 sell-side sources in connection with Breade-58 shortfall.
+[FN] Iksorr unit is discussed by 2 sell-side sources in connection with Yssarn shortfall.
+[FN] Iksorr unit is discussed by 2 sell-side sources in connection with Nalum shortfall.
+[FN] Iksorr unit is discussed by 2 sell-side sources in connection with Iksent shortfall.
+[FN] Iksorr unit is discussed by 2 sell-side sources in connection with Tarnum-21 shortfall.
+[FN] Iksorr unit is discussed by 2 sell-side sources in connection with Tamule shortfall.
+[FN] Breax-88 unit is discussed by 2 sell-side sources in connection with Vorum shortfall.
+[FN] Breax-88 unit is discussed by 2 sell-side sources in connection with Tarnum-21 shortfall.
+[FN] Breax-88 unit is discussed by 2 sell-side sources in connection with Rethilt shortfall.
+[FN] Tarnilt unit is discussed by 2 sell-side sources in connection with Vorum shortfall.
+[FN] Tarnilt unit is discussed by 2 sell-side sources in connection with Breade-58 shortfall.
+[FN] Tarnilt unit is discussed by 2 sell-side sources in connection with Vorex shortfall.
+[FN] Obbel unit is discussed by 2 sell-side sources in connection with Rethilt shortfall.
+[FN] Obbel unit is discussed by 2 sell-side sources in connection with Vorex shortfall.
+[FN] Yssent unit is discussed by 2 sell-side sources in connection with Droash shortfall.
+[FN] Yssent unit is discussed by 2 sell-side sources in connection with Lunun-65 shortfall.
+[FN] Yssent unit is discussed by 2 sell-side sources in connection with Vexash shortfall.
+[FN] Yssent unit is discussed by 2 sell-side sources in connection with Tamule shortfall.
+[FN] Yssent unit is discussed by 2 sell-side sources in connection with Vorex shortfall.
+[FN] Breex unit is discussed by 1 sell-side sources in connection with Nalum shortfall.
+[FN] Breex unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Breex unit is discussed by 1 sell-side sources in connection with Iksex shortfall.
+[FN] Breex unit is discussed by 1 sell-side sources in connection with Vexash shortfall.
+[FN] Breex unit is discussed by 1 sell-side sources in connection with Tamule shortfall.
+[FN] Breex unit is discussed by 1 sell-side sources in connection with Rethilt shortfall.
+[FN] Iksel unit is discussed by 1 sell-side sources in connection with Lunade shortfall.
+[FN] Iksel unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Iksel unit is discussed by 1 sell-side sources in connection with Tarnum-21 shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Droash shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Vorum shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Nalum shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Breade-58 shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Tarnum-21 shortfall.
+[FN] Yssun-2 unit is discussed by 1 sell-side sources in connection with Vorex shortfall.
+[FN] Droax-39 unit is discussed by 1 sell-side sources in connection with Droash shortfall.
+[FN] Droax-39 unit is discussed by 1 sell-side sources in connection with Nalum shortfall.
+[FN] Droax-39 unit is discussed by 1 sell-side sources in connection with Breade-58 shortfall.
+[FN] Droax-39 unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Droax-39 unit is discussed by 1 sell-side sources in connection with Vexash shortfall.
+[FN] Droax-39 unit is discussed by 1 sell-side sources in connection with Vorex shortfall.
+[FN] Morent unit is discussed by 1 sell-side sources in connection with Yssarn shortfall.
+[FN] Morent unit is discussed by 1 sell-side sources in connection with Breade-58 shortfall.
+[FN] Morent unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Morent unit is discussed by 1 sell-side sources in connection with Vorex shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Droash shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Vorum shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Breade-58 shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Tarnum-21 shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Tamule shortfall.
+[FN] Lunule-51 unit is discussed by 1 sell-side sources in connection with Rethilt shortfall.
+[FN] Morarn-48 unit is discussed by 1 sell-side sources in connection with Lunade shortfall.
+[FN] Morarn-48 unit is discussed by 1 sell-side sources in connection with Morock shortfall.
+[FN] Morarn-48 unit is discussed by 1 sell-side sources in connection with Droash shortfall.
+[FN] Iksorr unit is discussed by 1 sell-side sources in connection with Lunade shortfall.
+[FN] Iksorr unit is discussed by 1 sell-side sources in connection with Morock shortfall.
+[FN] Iksorr unit is discussed by 1 sell-side sources in connection with Vorum shortfall.
+[FN] Breax-88 unit is discussed by 1 sell-side sources in connection with Lunade shortfall.
+[FN] Breax-88 unit is discussed by 1 sell-side sources in connection with Morock shortfall.
+[FN] Breax-88 unit is discussed by 1 sell-side sources in connection with Nalum shortfall.
+[FN] Breax-88 unit is discussed by 1 sell-side sources in connection with Breade-58 shortfall.
+[FN] Breax-88 unit is discussed by 1 sell-side sources in connection with Iksex shortfall.
+[FN] Breax-88 unit is discussed by 1 sell-side sources in connection with Tamule shortfall.
+[FN] Tarnilt unit is discussed by 1 sell-side sources in connection with Iksent shortfall.
+[FN] Tarnilt unit is discussed by 1 sell-side sources in connection with Lunun-65 shortfall.
+[FN] Tarnilt unit is discussed by 1 sell-side sources in connection with Iksex shortfall.
+[FN] Tarnilt unit is discussed by 1 sell-side sources in connection with Vexash shortfall.
+[FN] Obbel unit is discussed by 1 sell-side sources in connection with Lunade shortfall.
+[FN] Obbel unit is discussed by 1 sell-side sources in connection with Yssarn shortfall.
+[FN] Obbel unit is discussed by 1 sell-side sources in connection with Lunun-65 shortfall.
+[FN] Obbel unit is discussed by 1 sell-side sources in connection with Iksex shortfall.
+[FN] Yssent unit is discussed by 1 sell-side sources in connection with Morock shortfall.
+[FN] Yssent unit is discussed by 1 sell-side sources in connection with Vorum shortfall.
+[FN] Yssent unit is discussed by 1 sell-side sources in connection with Yssarn shortfall.
+[FN] Yssent unit is discussed by 1 sell-side sources in connection with Breade-58 shortfall.
+[FN] Yssent unit is discussed by 1 sell-side sources in connection with Iksex shortfall.
+[FN] Yssent unit is discussed by 1 sell-side sources in connection with Rethilt shortfall.

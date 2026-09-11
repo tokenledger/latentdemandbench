@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latentdemandbench"
+version = "0.1.0"
+description = "A benchmark for predicting product demand before the market recognises it"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+# Model backends are optional: the generator, baselines, metrics and the whole
+# test suite run with numpy alone. Install only the backend you intend to query.
+gemini = ["google-genai>=1.0"]
+anthropic = ["anthropic>=0.40"]
+openai = ["openai>=1.60"]
+analysis = ["matplotlib>=3.10"]
+openweight = ["modal>=1.5.2"]
+dev = ["matplotlib>=3.10", "pytest>=8.0", "google-genai>=1.0", "anthropic>=0.40", "openai>=1.60"]  # tests import every backend
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# so a bare `pytest` collects without PYTHONPATH=.
+pythonpath = ["."]
+addopts = "-q --tb=short"
+
+[tool.setuptools]
+packages = ["ldb", "ldb.backends"]

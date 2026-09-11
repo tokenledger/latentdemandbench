@@ -1,0 +1,53 @@
+{
+ "n_eval": 100,
+ "n_train": 100,
+ "surface": "finance",
+ "extraction": {
+  "capability profiles": 1.0,
+  "product attributions": 1.0,
+  "need requirements": 1.0,
+  "thresholds": 1.0,
+  "materiality": 1.0,
+  "complement dates": 1.0,
+  "required complements": 1.0,
+  "mention counts": 1.0,
+  "candidate set": 1.0
+ },
+ "metrics": {
+  "auc": {
+   "mean": 0.72350896168092,
+   "lo": 0.7092738153448692,
+   "hi": 0.7383790546491117,
+   "n": 100
+  },
+  "gap_auc": {
+   "mean": 0.6983618853047429,
+   "lo": 0.6795976516849347,
+   "hi": 0.7183062428740424,
+   "n": 100
+  },
+  "recall@10": {
+   "mean": 0.18722465033825322,
+   "lo": 0.1723135776082199,
+   "hi": 0.20419177348427964,
+   "n": 100
+  },
+  "ndcg@10": {
+   "mean": 0.5998640668826792,
+   "lo": 0.5568522020016075,
+   "hi": 0.642756462480118,
+   "n": 100
+  },
+  "prob_mse_vs_p*": {
+   "mean": 0.05088058728382639,
+   "lo": 0.046514522472979304,
+   "hi": 0.0554241826681101,
+   "n": 100
+  }
+ },
+ "config": {
+  "code_hash": "6b2630d26248899e",
+  "top_k": 40,
+  "train_base": 1000
+ }
+}
